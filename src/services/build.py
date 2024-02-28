@@ -1,5 +1,5 @@
 from src.models import Build
-from src.schemas.schema_build import BuildCreate
+from src.schemas.build import BuildCreate
 from sqlalchemy import select, insert, update, delete
 
 

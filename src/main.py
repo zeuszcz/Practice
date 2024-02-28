@@ -1,13 +1,13 @@
 from fastapi import FastAPI
 
 
-from src.routers.router_cart import router as router_cart
-from src.routers.router_component import router as router_component
-from src.routers.router_product import router as router_product
-from src.routers.router_cart_item import router as router_cart_item
-from src.routers.router_service import router as router_service
-from src.routers.router_product_type import router as router_product_type
-from src.routers.router_build import router as router_build
+from src.routers.cart import router as router_cart
+from src.routers.product_component import router as router_component
+from src.routers.product import router as router_product
+from src.routers.cart_item import router as router_cart_item
+from src.routers.service import router as router_service
+from src.routers.product_type import router as router_product_type
+from src.routers.build import router as router_build
 from dotenv import load_dotenv
 
 

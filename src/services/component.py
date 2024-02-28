@@ -1,5 +1,5 @@
 from src.models import ProductComponent
-from src.schemas.schema_component import ComponentCreate
+from src.schemas.component import ComponentCreate
 from sqlalchemy import select, insert, update, delete
 
 

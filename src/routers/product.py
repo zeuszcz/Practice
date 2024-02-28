@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from src.database import get_session, Session
-from src.services.product_service import ProductService
-from src.schemas.schema_product import ProductCreate,ProductUpdate
+from src.services.product import ProductService
+from src.schemas.product import ProductCreate,ProductUpdate
 
 router = APIRouter(
     prefix="/product",

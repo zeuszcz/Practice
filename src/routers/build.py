@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from src.database import get_session, Session
-from src.services.build_service import BuildService
-from src.schemas.schema_build import BuildCreate,BuildUpdate
+from src.services.build import BuildService
+from src.schemas.build import BuildCreate,BuildUpdate
 
 router = APIRouter(
     prefix="/builds",

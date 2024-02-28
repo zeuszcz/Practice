@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from src.database import get_session, Session
-from src.services.component_service import ComponentService
-from src.schemas.schema_component import ComponentCreate,ComponentUpdate
+from src.services.component import ComponentService
+from src.schemas.component import ComponentCreate,ComponentUpdate
 
 router = APIRouter(
     prefix="/productcomponent",

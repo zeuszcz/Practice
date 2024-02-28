@@ -1,5 +1,5 @@
 from src.models import Product
-from src.schemas.schema_product import ProductCreate
+from src.schemas.product import ProductCreate
 from sqlalchemy import select, insert, update, delete
 
 

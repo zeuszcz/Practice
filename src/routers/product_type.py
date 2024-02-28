@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from src.database import get_session, Session
-from src.services.product_type_service import ProductTypeService
-from src.schemas.schema_product_type import ProductTypeCreate,ProductTypeUpdate
+from src.services.product_type import ProductTypeService
+from src.schemas.product_type import ProductTypeCreate,ProductTypeUpdate
 
 
 router = APIRouter(

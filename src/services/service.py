@@ -1,5 +1,5 @@
 from src.models import Service
-from src.schemas.schema_service import ServiceCreate
+from src.schemas.service import ServiceCreate
 from sqlalchemy import select, insert, update, delete
 
 

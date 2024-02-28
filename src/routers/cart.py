@@ -2,9 +2,9 @@ from fastapi import APIRouter, Depends
 from sqlalchemy import insert
 
 from src.database import get_session, Session
-from src.services.cart_service import CartService
+from src.services.cart import CartService
 from src.models import Product,Service
-from src.schemas.schema_cart import CartCreate,CartUpdate
+from src.schemas.cart import CartCreate,CartUpdate
 from src.models import Cart, Product, Service
 
 router = APIRouter(

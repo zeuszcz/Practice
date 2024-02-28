@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from src.database import get_session, Session
-from src.services.cart_item_service import CartItemService
-from src.schemas.schema_cart_item import CartItemCreate,CartItemUpdate
+from src.services.cart_item import CartItemService
+from src.schemas.cart_item import CartItemCreate,CartItemUpdate
 
 
 router = APIRouter(

@@ -1,5 +1,5 @@
 from src.models import Cart,Product,Service,CartItem
-from src.schemas.schema_cart import CartUpdate,CartRead
+from src.schemas.cart import CartUpdate,CartRead
 from sqlalchemy import select, insert, update, delete
 
 
